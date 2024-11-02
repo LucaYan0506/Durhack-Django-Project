@@ -3,6 +3,10 @@
 ## Project Description
 This repository provides a Django starter template prepared for the Durhack hackathon. It includes a basic Django setup, ready to support rapid development for our project ideas.
 
+## Live Demo
+A live version of the project will be available at:
+[Live Demo URL](https://lucayan5.pythonanywhere.com/)
+
 ## Getting Started
 
 ### Prerequisites
@@ -47,6 +51,19 @@ This repository provides a Django starter template prepared for the Durhack hack
 ## Usage
 1. Run `python manage.py runserver` to start the server.
 2. Access the server at `http://127.0.0.1:8000`.
+
+## Development Workflow
+To maintain code quality and avoid breaking changes, please follow these guidelines:
+1. **Create a New Branch** for each feature or bug fix:
+```bash
+git checkout -b feature/your-feature-name
+```
+2. **Do Not Push to the Main Branch Directly**. Instead, create a pull request after committing your changes to the new branch.
+3. **Push Changes** to the Branch:
+```bash
+git push origin feature/your-feature-name
+```
+4. Submit a **Pull Request** for review before merging.
 
 ## License
 This project is licensed under the MIT License.
